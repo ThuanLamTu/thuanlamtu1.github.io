@@ -1,0 +1,58 @@
+:root {
+    --bg-color: #f8f9fa;
+    --text-color: #212529;
+    --card-bg-color: #ffffff;
+}
+h1{
+    font-size: 70px;
+
+}
+nav{
+    font-size: 20px;
+    color: #6c757d;
+}
+h2{
+    font-size: 40px;
+    color: cadetblue;
+    text-shadow: 3px 3px 3px;
+}
+h3{
+    font-size: 40px;
+    color: #343a40;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 20px;
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+main{
+    background-color: azure;
+}
+
+.card {
+    background-color: var(--card-bg-color);
+}
+
+.dark-mode {
+    --bg-color: #212529;
+    --text-color: #f8f9fa;
+    --card-bg-color: #343a40;
+}
+
+.btn-dark-mode {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-dark-mode:focus {
+    outline: 5px;
+}

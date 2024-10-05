@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body class="bg-light">
+
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h1">Thuận Lâm Tự</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="http://127.0.0.1:5500/home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="http://127.0.0.1:5500/Web_lab03_ITCSIU21243_Thuan%20Lam%20Tu/exercise3.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Articles</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mt-4">
+        <section class="intro text-center">
+            <h2 class="display-5">Frontend Developer</h2>
+            <p>Here I only write proper layout, no styling</p>
+        </section>
+
+        <section class="content row my-5">
+            <div class="col-md-4">
+                <h3>Projects</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">HTML Only Portfolio</li>
+                    <li class="list-group-item">Calculator</li>
+                    <li class="list-group-item">Quiz App</li>
+                    <li class="list-group-item">Product Upcoming Page</li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Work Experience</h3>
+                <p>Finished 3/5</p>
+                <p>Solved all the frontend projects.</p>
+                <a href="https://github.com/ThuanLamTu" class="btn btn-primary">View my GitHub profile</a>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Education</h3>
+                <p>Graduated with a 3 out of 4 GPA.</p>
+                <h4>Course list includes:</h4>
+                <ul>
+                    <li>Object-Oriented Programming</li>
+                    <li>Data Structures</li>
+                    <li>Algorithms</li>
+                    <li>Mobile Application Development</li>
+                    <li>Database Systems</li>
+                    <li>Discrete Mathematics</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <h3>Reviews from my Teachers</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card p-3 mb-3">
+                        <p>Lam Tu was a brilliant student, always stood out with his assignments</p>
+                        <span>- My Teachers</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3 mb-3">
+                        <p>Lam Tu has created a interesting game.</p>
+                        <span>- My Teachers</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3 mb-3">
+                        <p>Lam Tu was a brilliant student in Math.</p>
+                        <span>- My Teachers</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-5">
+            <h3>Contact Form</h3>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label"><strong>Name</strong></label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label"><strong>Email</strong></label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-12">
+                    <label for="message" class="form-label"><strong>Message</strong></label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary"><strong>Send Message</strong></button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-3 bg-dark text-white">
+        <p style="font-size: 18px;">© Profile in 2025</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
